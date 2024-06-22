@@ -12,7 +12,7 @@ function CarListOptions({dist}) {
     <div className='mt-5 overflow-auto h-[250px]'>
         <h2 className='text-[22px] font-bold'> Recommended</h2>
         {CarListData.map((item, index) =>(
-            <div className={`cursor-pointer p-2 px-4 rounded-md
+            <div key={index} className={`cursor-pointer p-2 px-4 rounded-md
             border-black 
             ${activeIndex==index?'border-[3px]':null}`}
             onClick={() => {

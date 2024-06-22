@@ -42,9 +42,9 @@ function MapSection() {
   const { destLoc, setDestLoc } = useContext(DestLocContext);
   const { mainToggle, setMainToggle } = useContext(MainToggleContext);
 
-  console.log("Mapsection");
-  console.log(sourceLoc);
-  console.log(destLoc);
+  // console.log("Mapsection");
+  // console.log(sourceLoc);
+  // console.log(destLoc);
 
   function Routing() {
     const map = useMap();

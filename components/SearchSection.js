@@ -16,10 +16,10 @@ export default function SearchSection() {
   const {mainToggle, setMainToggle} = useContext(MainToggleContext);
 
 
-  console.log("SearchSection");
-  console.log(sourceLoc);
-  console.log(destLoc);
-  console.log(dist);
+  // console.log("SearchSection");
+  // console.log(sourceLoc);
+  // console.log(destLoc);
+  // console.log(dist);
 
   useEffect(() => {
     if(sourceLoc && destLoc){

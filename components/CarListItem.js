@@ -9,7 +9,7 @@ function CarListItem({ car, dist }) {
             <div className='flex items-center justify-between'>
                 <div className='flex items-center gap-5'>
                     <Image src={car.image}
-                        width={100} height={100} />
+                        width={100} height={100}  alt={car.name}/>
                     <div>
                         <h2 className='font-semibold text-[18px]
                         flex gap-3 items-center'>

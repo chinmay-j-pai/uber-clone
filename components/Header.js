@@ -27,10 +27,10 @@ function Header() {
             alt='Logo' className='cursor-pointer'
             onClick={()=>route.push('/')} />
             <div className='flex gap-6 items-center'>
-                {headerMenu.map((item)=>(
-                    <div className='flex gap-2 items-center'>
+                {headerMenu.map((item,index)=>(
+                    <div className='flex gap-2 items-center' key={index}>
                         <Image src={item.icon} 
-                        width={17} height={17}/>
+                        width={17} height={17} alt="image"/>
                         <h2 className='text-[14px] font-medium'>{item.name}</h2>
                     </div>
                 ))}
